@@ -1,0 +1,87 @@
+html,body,div,h1,h2,h3,h4,h5,p{margin:0;padding:0;font-style: normal;}
+html,body{width: 100%;height: 100%;font:  14px/1.5 Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;}
+.pageMain{width:100%;height: 100%;max-width: 540px;}
+.page{width: 100%;height: 100%;}
+.page1{background:linear-gradient(rgba(33,101,146,0.8),rgba(33,101,146,1));}
+.page2{background: #7BB1BD;}
+.page3,.page4{background: #13535F;color: #fff;}
+.page5{background: #242F44;color: #fff;}
+.arrow{width: 34px;height: 26px;background: url(img/arrow.png) no-repeat;opacity: 0;
+	position: absolute;bottom: 0;left: 50%;margin-left:-17px;z-index: 9999;background-size: cover;transition:1s;animation: 2s upMove infinite;-webkit-transition:1s;-webkit-animation: 2s upMove infinite ;}
+
+@keyframes upMove{
+
+	0%{
+		transform: translate3d(0,0,0);
+		opacity: 0;
+	}
+
+	10%{
+		transform: translate3d(0,-10px,0);
+		opacity: 1;
+	}
+}
+@-webkit-keyframes upMove{
+
+	0%{
+		transform: translate3d(0,0,0);
+		opacity: 0;
+	}
+
+	10%{
+		transform: translate3d(0,-10px,0);
+		opacity: 1;
+	}
+}
+.myMain{height: 18%;}
+.myInfoMain{height: 50%;}
+.headMain{height: 19%;}
+.Job{height: 12%;}
+.headMain,.myMain,.myInfoMain,.Job{width: 95%;margin:0 auto;overflow: hidden;position: relative;color: #fff;}
+
+.headImg{width: 80px;height:80px;border-radius: 50%;position: absolute;top: 50%;left:50%;margin:-35px;overflow: hidden;box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.5);-webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.5);}
+
+.infoTitle{width: 60px;height: 60px;border-radius: 50%;line-height: 60px;text-align: center;float: left;background: rgba(35,39,52,0.3);
+	margin:30px 0;font-size: 13px;color: #fff;position: absolute;top:50%;left: 0;margin-top:-30px;}
+
+.myInfo{width: 77%;height:100%;float: right;}
+
+.myInfo p{line-height: 20px;font-size: 13px;}
+
+.jobInfo {width:77%;height: 50px;line-height:50px;float: right;position: absolute;top: 50%;right: 0;margin-top:-25px;}
+
+.ProjectExperienceInfo{width: 92%;height:30%;margin:0 auto;overflow: hidden;font-size: 13px;color: #26292C;line-height: 26px;}
+
+.ProjectExperienceInfo p{line-height:26px;}
+
+.skillMain{width: 100%;height: 70%;position: relative;}
+
+.mySkill{width:90px;height:90px;line-height:90px;text-align:center;position: absolute;top:50%;
+	left:50%;margin:-45px;border-radius: 50%;background: rgba(33,29,34,0.5);color: #fff;}
+.skillMain .arc{width:70px;height: 70px;border-radius: 50%;background: rgba(61,74,75,0.5);font-size: 12px;color: #fff;line-height: 70px;text-align: center;position: absolute;}
+.skillMain .arc1{left:2%;top: 22%;}
+.skillMain .arc2{left:40%;top: 2%;}
+.skillMain .arc3{left:71%;top: 20%;}
+.skillMain .arc4{left:75%;top: 46%;}
+.skillMain .arc5{left:25%;top: 74%;}
+.skillMain .arc6{left:7%;top: 53%;}
+.arc8{width: 75px;height: 75px;line-height: 75px;}
+.arc7{width:60px;height:60px;line-height: 60px;}
+.arc7,.arc8{border-radius: 50%;background: rgba(61,74,75,0.5);font-size: 12px;color: #fff;text-align: center;position: absolute;}
+.arc7{left: 29%;top:22%;}
+.arc8{left: 54%;top: 64%;}
+
+.worksEx{width: 86%;height: 80%;border:1px solid rgba(255,255,255,0.5);margin:10% 7%;position: relative;color: #fff;}
+.worksEx_Title{background:#13535F;position: absolute;top: -15px;left:20px;color: #fff;font-size: 18px; padding:0 5px;}
+.worksEx p{font-size: 12px;}
+.workCon{overflow: hidden;padding:20px 5px 5px 5px;}
+.workCon h4{line-height: 30px;font-style: normal;}
+.workCon .time{line-height: 30px;}
+.workCon .infoCon{line-height: 26px;}
+
+.infoCon ul{list-style-type: circle;}
+.infoCon ul li{line-height: 24px;font-size: 12px;}
+
+.thanksInfo{width: 70%;overflow: hidden;margin:30% auto;line-height: 36px;font-size: 13px;background: rgba(0,0,0,0.3);padding:20px;}
+.thanksText{font-size: 40px;text-align: center;margin:20% auto;}
+.thanksText .Text{transform:rotate(-15deg);-webkit-transform:rotate(-15deg);}
